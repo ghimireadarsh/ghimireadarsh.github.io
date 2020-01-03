@@ -65,8 +65,8 @@
                         <li class="active"><a class="page-scroll" href="#Intro">Start</a></li>
                         <li class=""><a class="page-scroll" href="#About">About me</a></li>
                         <li class=""><a class="page-scroll" href="#Services">Services</a></li>
-                        <li><a class="page-scroll" href="#Portfolio">Portfolio</a></li>
-                        <li><a class="page-scroll" href="#Blog">CV</a></li>
+                        <li><a class="page-scroll" href="#Portfolio">Resume</a></li>
+<!--                        <li><a class="page-scroll" href="#Blog">CV</a></li>-->
                         <li><a class="page-scroll" href="#Contact">Contact</a></li>
                     </ul>
                 </div>
@@ -102,13 +102,12 @@
                             <div class="about-me">
                                 <h4 data-aos="fade">Some words about me</h4>
                                 <div class="about-me-text ta-j" data-aos="fade">
-                                    <p> I'm the Analytics Specialist for <b><a href="http://www.rosebayconsult.com/"
-                                                target="_blank">Rosebay
-                                                Consult</a></b> in Kathmandu, Nepal. I am passionate about research on Artificial Intelligence, Machine Learning 
-                                                and Big Data. 
-                                                My deepest interest is research on Machine General Intelligence and Natural Language Processing, and Image Processing.  
-                                                I specialize in application of Machine Learning and Big Data for logistics and finance, and have led many machine Learning and
-                                                AI projects on behalf of Rosebay. 
+                                    <p> I'm working as Analytics Specialist for <b><a href="http://www.rosebayconsult.com/" target="_blank">Rosebay Consult</a></b> in Kathmandu, Nepal.
+                                        I specialize in application of Machine Learning and Big Data for logistics and finance, and have led many machine Learning and AI projects on behalf of Rosebay.
+                                        <br>
+                                        I am passionate about research on Artificial Intelligence, Machine Learning and Big Data.
+                                        My deepest interest is research on Machine General Intelligence, Natural Language Processing,
+                                        Deep Learning, Computer Vision, Bayesian Machine Learning, Geometric Deep Learning, CNN, Computational Neuroscience.
 
                                         <br>
                                     </p>
@@ -119,11 +118,11 @@
                         <div class="col-md-5 col-md-offset-1">
                             <div class="about-me-skills">
                                 <h4 data-aos="fade">My skils</h4>
-                                <skill percent="90">Python <span class="c-silver">/ 2+ years of experience</span>
-                                </skill>
+                                <skill percent="90">Python <span class="c-silver">/ 2+ years of experience</span></skill>
                                 <skill percent="95">Data Analysis and Visualization <span class="c-silver">/ 1 years of experience</span></skill>
                                 <skill percent="90">Machine Learning <span class="c-silver">/ 1 years of experience</span></skill>
                                 <skill percent="60">Big Data on HDP and Cloudera <span class="c-silver">/  6+ months of experience</span></skill>
+                                <skill percent="30">Django <span class="c-silver">/ 2+ years of experience</span></skill>
                                 <skill percent="80">CCNA <span class="c-silver">/ 3 months of experience</span></skill>
                                 <skill percent="70">HTML, CSS <span class="c-silver">/ 1 years of experience</span></skill>
                                 <skill percent="90">MATLAB<span class="c-silver">/ 2+ years of experience</span></skill>
@@ -198,19 +197,19 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-3 col-xs-6">
-                            <counter data-aos="fade" data-aos-offset="150" :number="10" text="Project completed"
+                            <counter data-aos="fade" data-aos-offset="150" :number="60" text="Project completed"
                                 icon="fa fa-code" inline-tepmlate></counter>
                         </div>
                         <div class="col-sm-3 col-xs-6">
-                            <counter data-aos="fade" data-aos-offset="150" data-aos-delay="150" :number="10"
-                                text="Happy custommers" icon="fa fa-heart"></counter>
+                            <counter data-aos="fade" data-aos-offset="150" data-aos-delay="100" :number="30"
+                                text="Happy customers" icon="fa fa-heart"></counter>
                         </div>
                         <div class="col-sm-3 col-xs-6">
-                            <counter data-aos="fade" data-aos-offset="150" data-aos-delay="300" :number="580"
+                            <counter data-aos="fade" data-aos-offset="150" data-aos-delay="150" :number="580"
                                 text="Cups of coffee" icon="fa fa-coffee"></counter>
                         </div>
                         <div class="col-sm-3 col-xs-6">
-                            <counter data-aos="fade" data-aos-offset="150" data-aos-delay="450" :number="100"
+                            <counter data-aos="fade" data-aos-offset="150" data-aos-delay="250" :number="100"
                                 text="Award winnig" icon="fa fa-trophy"></counter>
                         </div>
                     </div>
@@ -220,38 +219,26 @@
         <!-- ========================================= COUNTERS SECTION :END ========================================= -->
 
         <!-- ========================================= PORTFOLIO SECTION ========================================= -->
-        <!--
+
         <section id="Portfolio">
             <div class="section--basic">
                 <div class="container">
                     <div class="headline">
-                        <h2>My portfolio</h2>
+                        <h2>My Resume</h2>
                     </div>
                 </div>
 
-                <portfolio type="spacing" :data='[
-                    {"name": "Item name", "image": "assets/images/portfolio/thumbs/portfolio1.jpg", "href": "project-page.html", "tags": ["Webdesign"]},
-                    {"name": "Item name", "image": "assets/images/portfolio/thumbs/portfolio2.jpg", "href": "project-page.html", "tags": ["Photography"]},
-                    {"name": "Item name", "image": "assets/images/portfolio/thumbs/portfolio3.jpg", "href": "project-page.html", "tags": ["Webdesign"]},
-                    {"name": "Item name", "image": "assets/images/portfolio/thumbs/portfolio4.jpg", "href": "project-page.html", "tags": ["Photography", "Branding"]},
-                    {"name": "Item name", "image": "assets/images/portfolio/thumbs/portfolio5.jpeg", "href": "project-page.html", "tags": ["Webdesign"]},
-                    {"name": "Item name", "image": "assets/images/portfolio/thumbs/portfolio6.jpeg", "href": "project-page.html", "tags": ["Branding"]},
-                    {"name": "Item name", "image": "assets/images/portfolio/thumbs/portfolio7.jpeg", "href": "project-page.html", "tags": ["Webdesign"]},
-                    {"name": "Item name", "image": "assets/images/portfolio/thumbs/portfolio8.jpeg", "href": "project-page.html", "tags": ["Photography"]}
-                ]'>
-                </portfolio>
-
                 <div class="buttons-group buttons-group-center mt-3 Portfolio-see-more" data-aos="fade">
-                    <a href="project-list.html" class="btn btn-black btn-right-icon">See more <i
-                            class="fa fa-long-arrow-right"></i></a>
+                    <a href="assets/resume.pdf" class="btn btn-black btn-right-icon">Click to Download
+                        <i class="fa fa-long-arrow-right"></i></a>
                 </div>
             </div>
         </section>
-    -->
+
         <!-- ========================================= PORTFOLIO SECTION :END ========================================= -->
 
         <!-- ========================================= BLOG SECTION ========================================= -->
-        <!--
+<!--
         <section id="Blog">
             <div class="section--basic section--darker">
                 <div class="container">
@@ -331,7 +318,7 @@
                 </div>
             </div>
         </section>
-    -->
+-->
         <!-- ========================================= BLOG SECTION :END ========================================= -->
 
         <!-- ========================================= TESTIMONIALS SECTION ========================================= -->
