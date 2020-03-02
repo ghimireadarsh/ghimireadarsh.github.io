@@ -26,7 +26,7 @@ window.Config = {
     introTypingTexts: [ // Set of texts to display in Typing Texts module
         "Adarsh",
         "Analytics Specialist",
-        "ML, AI, and Big Data Enthusiast"
+        "making Machines Intelligent"
     ],
 
     /*
@@ -80,7 +80,7 @@ window.Config = {
 
     contactForm:
     {
-        mailScriptLocation: 'send_email.php',
+        mailScriptLocation: 'adarshghimire5@gmail.com',
         successMessage: 'Your message was sent!'
     },
 
